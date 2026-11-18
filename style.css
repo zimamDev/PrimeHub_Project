@@ -1,0 +1,115 @@
+:root {
+  --ph-primary: #0d3b2e;
+  --ph-accent: #ffb703;
+  --ph-accent-dark: #e6a300;
+  --ph-light: #f6f8f7;
+}
+
+body {
+  background-color: var(--ph-light);
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.primehub-navbar {
+  background-color: var(--ph-primary);
+}
+
+.primehub-footer {
+  background-color: var(--ph-primary);
+}
+
+.footer-link {
+  color: #d9e2dd;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--ph-accent);
+}
+
+.btn-warning {
+  background-color: var(--ph-accent);
+  border-color: var(--ph-accent);
+  color: #1a1a1a;
+}
+.btn-warning:hover {
+  background-color: var(--ph-accent-dark);
+  border-color: var(--ph-accent-dark);
+  color: #1a1a1a;
+}
+
+.btn-primehub {
+  background-color: var(--ph-primary);
+  color: #fff;
+  border: none;
+}
+.btn-primehub:hover {
+  background-color: #0a2e23;
+  color: #fff;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--ph-primary) 0%, #145c45 100%);
+  color: #fff;
+  padding: 70px 0;
+}
+
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  height: 100%;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  background-color: #eee;
+}
+
+.category-pill {
+  border-radius: 30px;
+}
+
+.badge-stock-low {
+  background-color: #dc3545;
+}
+.badge-stock-ok {
+  background-color: #198754;
+}
+
+.admin-sidebar {
+  background-color: var(--ph-primary);
+  min-height: 100vh;
+}
+.admin-sidebar a {
+  color: #d9e2dd;
+  text-decoration: none;
+  display: block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+.admin-sidebar a:hover,
+.admin-sidebar a.active {
+  background-color: rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+.stat-card {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.auth-card {
+  max-width: 460px;
+  margin: 60px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
